@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>LV1</title>
+    <style type="text/css">
+        .box {
+             width: 500px;
+             padding: 10px;
+             border: 1px solid black;
+        }
+        .box div {
+             width: 180px;
+             height: 50px;
+             background-color: grey;
+        }
+        a{
+            text-decoration:none;
+        } 
+        div:hover{
+            background-color: yellow;
+        }
+        .box:hover{
+            background-color: transparent;
+        }
+        .box ul li:nth-child(1){
+            font-size: 20px;
+        }
+        .box ul li:nth-child(2){
+            font-size: 30px;
+        }
+        .box ul li:nth-child(3){
+            font-size: 40px;
+        }
+        html,body{
+            height: 100%;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+
+
+
+
+<body>
+    <div class="box">
+        <a href="#">我不想要a标签默认的下划线</a>
+        <p style="color:red">我的字体颜色是红色</p>
+            <div>鼠标悬停在我的上面时，我的背景颜色变成黄色</div>
+             <ul>
+               <li>我的字体大小是20px</li>
+               <li>我的字体大小是30px</li>
+               <li>我的字体大小是40px</li>
+             </ul>
+        <p style="color:red;">我的字体颜色是红色</p>
+    </div>        
+</body>
+</html>
